@@ -1,0 +1,20 @@
+This portable application includes unmodified third-party libraries.
+Their supplied license/metadata notices are in licenses/ and _internal/.
+Qt / PySide6 / Shiboken 6.10.3: LGPLv3 option; dynamically loaded libraries.
+Corresponding upstream source: https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.10.3-src/
+Qt source: https://download.qt.io/official_releases/qt/6.10/6.10.3/submodules/
+Qt source repository: https://code.qt.io/cgit/qt/
+PyAV 19.0.2: https://github.com/PyAV-Org/PyAV/tree/v19.0.2
+Bundled FFmpeg libraries: https://ffmpeg.org/legal.html
+PyAV wheel build sources/configuration: https://github.com/PyAV-Org/pyav-ffmpeg
+Pillow: https://github.com/python-pillow/Pillow
+pillow-heif and bundled libheif/codecs: https://github.com/bigcat88/pillow_heif
+openpyxl: https://openpyxl.readthedocs.io/
+pywin32: https://github.com/mhammond/pywin32
+NumPy: https://numpy.org/
+Python runtime: https://www.python.org/ (license in _internal)
+PyInstaller bootloader: GPL with distribution exception; see included notices.
+You may replace compatible dynamically loaded libraries in _internal.
+No restriction is imposed on reverse engineering this application to debug
+modifications to LGPL-covered libraries. Application Python source is supplied
+separately in the matching Source ZIP.
